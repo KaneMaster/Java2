@@ -10,6 +10,11 @@ public class Team {
     Competitor [] teamMembers;
     int competNumber;
 
+    /**
+     *  Конструктор класса
+     * @param nm название команды
+     * @param tm массив участников комманды
+     */
 
     public Team( String nm, Competitor [] tm) {
         name = nm;
@@ -17,9 +22,18 @@ public class Team {
         competNumber = 0;
     }
 
+    /**
+     *  Устанавливает курсор на первого участника комманды
+     */
+
     public void setFirstCompetitor(){
         competNumber = 0;
     }
+
+    /**
+     * Выводит текущего участника комманды и переводит курсор на одну позицию вперёд
+     * @return текущий участник команды
+     */
 
     public Competitor getNextCompetitor(){
         Competitor res = null;
@@ -29,14 +43,23 @@ public class Team {
         return res;
     }
 
+    /**
+     * Выводит информации об участниках команды
+     */
     public void getInfo(){
         for (Competitor comp: teamMembers) {
             comp.info();
         }
     }
 
+    /**
+     * Выводит резуьтат марафона
+     */
+
     public void ShowResults(){
         boolean somethingOnDistance = false;
+        System.out.println("Результаты команды \"" + name + "\"");
+        System.out.println();
         for (Competitor comp: teamMembers) {
             if (comp.isDistance()) {
                 if (!somethingOnDistance) {

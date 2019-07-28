@@ -1,13 +1,7 @@
 package lesson1.maraphon;
 
-import lesson1.maraphon.competitors.Cat;
-import lesson1.maraphon.competitors.Competitor;
-import lesson1.maraphon.competitors.Dog;
-import lesson1.maraphon.competitors.Human;
-import lesson1.maraphon.obstacles.Cross;
-import lesson1.maraphon.obstacles.Obstacle;
-import lesson1.maraphon.obstacles.Wall;
-import lesson1.maraphon.obstacles.Water;
+import lesson1.maraphon.competitors.*;
+import lesson1.maraphon.obstacles.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,15 +16,12 @@ public class Main {
                 new Wall(1),
                 new Water(10)  };
 
-        for (Competitor c:competitors) {
-            for (Obstacle o:obstacles ) {
-                o.doIt(c);
-                if(!c.isDistance()) break;
-            }
-        }
 
-        for (Competitor c:competitors ) {
-            c.info();
-        }
+
+        Team teamA = new Team ("Комманда А", competitors);
+        Course course1 = new Course(obstacles);
+        course1.doIt(teamA);
+        System.out.println();
+        teamA.ShowResults();
     }
 }
