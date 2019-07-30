@@ -1,4 +1,8 @@
 package Exceptions;
 
-public class MyArrayDataException {
+public class MyArrayDataException extends NumberFormatException {
+
+    public MyArrayDataException(String s) {
+        super(s);
+    }
 }
