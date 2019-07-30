@@ -15,7 +15,7 @@ public class SpecialArray {
         }
        if (cnt != 16) throw new MyArraySizeException();
 
-        /*Проверка размерности массива*/
+        /*Парсинг строки к числу и суммирование*/
        for (int i = 0; i < 4; i++){
            for (int j = 0; j < 4; j++){
                try {
