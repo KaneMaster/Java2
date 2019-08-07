@@ -1,23 +1,30 @@
 .button
 {
-	-fx-background-color: white;
+	-fx-background-color: ghostwhite;
 	-fx-text-fill: black;
 }
 .button:hover
 {
 	-fx-background-color: black;
-	-fx-text-fill: white;
+	-fx-text-fill: aliceblue;
 }
 
-#Area
+#TopPane
 {
 	-fx-background-image: url("back.jpg");
-	-fx-alignment: center;
-	-fx-spacing: 10;
 }
 
-#TextArea{
-	-fx-font-style: italic;
-	-fx-text-fill: green;
-	-fx-font-size: 14px;
+#LeftPane, #RightPane
+{
+	-fx-background-image: url("col.png");
+	-fx-background-size: stretch;
 }
+
+#TextArea
+{
+	-fx-font-size: 18 pt;
+	-fx-font-color: darkgrey;
+	-fx-font-style: italic;
+}
+
+

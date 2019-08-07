@@ -15,8 +15,15 @@
           </HBox>
       </bottom>
    <center>
-          <HBox id="Area" BorderPane.alignment="CENTER" stylesheets="@css/style.css">
-              <TextArea fx:id="TextArea" id="TextArea" minWidth="800" stylesheets="@css/style.css"/>
-          </HBox>
+              <TextArea id="TextArea" fx:id="TextArea" stylesheets="@css/style.css" />
    </center>
+    <top>
+        <Pane id="TopPane" minHeight="50" stylesheets="@css/style.css" />
+    </top>
+    <left>
+        <Pane id="LeftPane" minWidth="130" stylesheets="@css/style.css" />
+    </left>
+    <right>
+        <Pane id="RightPane" minWidth="130" stylesheets="@css/style.css" />
+    </right>
 </BorderPane>
