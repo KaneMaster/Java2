@@ -21,7 +21,7 @@ public class main {
             arr[i] = (float) (arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
 
-        System.out.println(System.currentTimeMillis() - a);
+        System.out.println("Последовательный расчет: " + (System.currentTimeMillis() - a));
 
         float[] a1 = new float[h];
         float[] a2 = new float[h];
@@ -50,7 +50,7 @@ public class main {
         System.arraycopy(a1, 0, arrb, 0, h);
         System.arraycopy(a2, 0, arrb, h, h);
 
-        System.out.println(System.currentTimeMillis() - a);
+        System.out.println("Параллельный расчет: " + (System.currentTimeMillis() - a));
 
         /*
         boolean allCorrect = true;
