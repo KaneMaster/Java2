@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javafx_chat_15082019/META-INF/javafx_chat_15082019.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javafx_chat_15082019/client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javafx_chat_15082019/client/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javafx_chat_15082019/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javafx_chat_15082019/server/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javafx_chat_15082019/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javafx_chat_15082019/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Server.java" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,16 +61,44 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+            <state relative-caret-position="80">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/ClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="60" column="25" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="60" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+              <folding>
+                <element signature="e#1809#1810#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+                <element signature="e#1910#1911#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,56 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-              <folding>
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/AuthService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server/ClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/Main.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -137,6 +126,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -144,17 +136,18 @@
         <option value="$PROJECT_DIR$/src/server/AuthService.java" />
         <option value="$PROJECT_DIR$/src/client/sample.fxml" />
         <option value="$PROJECT_DIR$/src/client/Controller.java" />
-        <option value="$PROJECT_DIR$/src/server/Server.java" />
         <option value="$PROJECT_DIR$/src/server/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/server/Server.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
     <option name="width" value="949" />
     <option name="height" value="991" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -167,36 +160,32 @@
         <subPane>
           <expand>
             <path>
-              <item name="javafx_chat_15082019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javafx_chat_15082019" type="462c0819:PsiDirectoryNode" />
+              <item name="Java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javafx_chat_15082019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javafx_chat_15082019" type="462c0819:PsiDirectoryNode" />
+              <item name="Java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javafx_chat_15082019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javafx_chat_15082019" type="462c0819:PsiDirectoryNode" />
+              <item name="Java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javafx_chat_15082019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javafx_chat_15082019" type="462c0819:PsiDirectoryNode" />
+              <item name="Java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javafx_chat_15082019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,11 +196,12 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565897146916" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sqlite-jdbc-3.8.11.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -313,6 +303,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -334,8 +325,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Start" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Start" />
     </list>
     <recent_temporary>
       <list>
@@ -364,10 +355,10 @@
     <option name="totallyTimeSpent" value="9228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="949" height="991" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21709786" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.10607676" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,7 +367,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22727273" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22643554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,55 +410,46 @@
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/client/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/client/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/client/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/AuthService.java">
+    <entry file="file://$PROJECT_DIR$/src/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+        <state relative-caret-position="386">
+          <caret line="60" column="25" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+          <folding>
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
