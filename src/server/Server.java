@@ -49,7 +49,7 @@ public class Server {
         boolean msgSended = false;
         for (ClientHandler c:clients ) {
             if (c.nick.equals(nick)){
-                c.sendMSG(msg);
+                c.sendMSG(sender.nick + " : " + msg);
                 msgSended = true;
                 break;
             }
@@ -57,7 +57,7 @@ public class Server {
         if (!msgSended) {
             sender.sendMSG("Сообщение небыло отправленно. Абонент " + nick + " к чату не подключен");
         } else{
-            sender.sendMSG(sender.nick + " --> " + nick +  ": " + msg);
+            sender.sendMSG(sender.nick + " --> " + nick +  " : " + msg);
         }
     }
 
