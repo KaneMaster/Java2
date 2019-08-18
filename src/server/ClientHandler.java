@@ -53,8 +53,12 @@ public class ClientHandler {
                         if (str.equals("/end")) {
                             break;
                         }
-
-                        server.broadcastMsg(nick + " : " + str);
+                        String[] command = str.split(" ",3);
+                        if (command[0].equals("/w")) {
+                            server.sendMSGToAbonent(this, command[1], command[2]);
+                        } else {
+                            server.broadcastMsg(nick + " : " + str);
+                        }
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -81,5 +85,7 @@ public class ClientHandler {
             e.printStackTrace();
         }
     }
+
+
 
 }

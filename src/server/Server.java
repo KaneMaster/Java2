@@ -45,6 +45,22 @@ public class Server {
         }
     }
 
+    public void sendMSGToAbonent(ClientHandler sender, String nick, String msg){
+        boolean msgSended = false;
+        for (ClientHandler c:clients ) {
+            if (c.nick.equals(nick)){
+                c.sendMSG(msg);
+                msgSended = true;
+                break;
+            }
+        }
+        if (!msgSended) {
+            sender.sendMSG("Сообщение небыло отправленно. Абонент " + nick + " к чату не подключен");
+        } else{
+            sender.sendMSG(sender.nick + " --> " + nick +  ": " + msg);
+        }
+    }
+
     public void subscribe(ClientHandler clientHandler){
         clients.add(clientHandler);
     }
