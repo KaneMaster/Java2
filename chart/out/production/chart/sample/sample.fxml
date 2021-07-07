@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+      <bottom>
+          <HBox BorderPane.alignment="CENTER">
+              <TextField fx:id="TextField" onAction="#send" stylesheets="@css/style.css" HBox.hgrow="ALWAYS" />
+              <Button onAction="#send" prefWidth="100" stylesheets="@css/style.css" text="Send" />
+          </HBox>
+      </bottom>
+   <center>
+              <TextArea id="TextArea" fx:id="TextArea" stylesheets="@css/style.css" />
+   </center>
+    <top>
+        <Pane id="TopPane" minHeight="50" stylesheets="@css/style.css" />
+    </top>
+    <left>
+        <Pane id="LeftPane" minWidth="130" stylesheets="@css/style.css" />
+    </left>
+    <right>
+        <Pane id="RightPane" minWidth="130" stylesheets="@css/style.css" />
+    </right>
+</BorderPane>
